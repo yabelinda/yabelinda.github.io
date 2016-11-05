@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+header,
+footer,
+aside,
+article,
+section,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Archivo Black', cursive !important;
+}
+
+h2 {
+    font-size: 30pt !important;
+}
+
+p {
+    font-family: 'Homenaje', sans-serif;
+}
+
+header {
+    background-image: url(../images/image1.jpg);
+    height: 100vh;
+    margin-top: 0 !important!;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .row {
+    text-align: center;
+    width: 100%;
+    color: white;
+    margin-top: 0%;
+}
+
+header .row:first-child {
+    margin-top: 150px;
+}
+
+header h1 {
+    font-size: 50pt;
+}
+
+header p {
+    font-size: 20pt;
+}
+
+.navbar {
+    background-color: #1f1f1f;
+    width: 100%;
+    height: 55px;
+    position: fixed !important;
+    margin-bottom: 0 !important;
+    border-radius: 0px !important;
+}
+
+.container .row {
+    width: 100%;
+}
+
+#section1 .row {
+    text-align: center
+}
+
+#section4 .row {
+    text-align: center
+}
+
+#section10 .row {
+    text-align: center
+}
+
+
+}
+#section1 .row .col-md-4 {
+    text-align: center !important!;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#section1 .row .col-md-4 i {
+    font-size: 119pt;
+    color: rgb(91, 120, 126);
+    margin-top: 50px;
+    text-align: center;
+}
+.container h1 {
+    font-size: 40pt;
+    text-align: center;
+}
+a:link {
+    font-family: sans-serif;
+    font-kerning: auto;
+    color: white
+}
+a:hover {
+    color: azure;
+}
+a:active {
+    color: azure
+}
+ul.menu {
+    display: table;
+    width: 80%;
+    float: right
+}
+li.option {
+    display: table-cell;
+    padding: 10px;
+    font-size: 12pt
+}
+.thumbnail p {
+    color: black;
+}
+.btn-group {
+    background-color: rgba(255, 255, 255, 0);
+    color: black
+}
+.btn-large {
+    margin: 20px;
+}
+#4icon .col-md-3 i {
+    margin-bottom: inherit;
+    font-size: 96pt;
+}
+.jumbotron {
+    margin-bottom: 0 !important;
+}
+
+/*底色與背景色設定 開始*/
+#seciont1,
+#section3,
+#section9,
+{
+    background-color: #e8e8e8
+}
+#section5 {
+    background-image: url(/images/image4.jpg);
+    background-size: cover;
+}
+#section6,
+#section8 {
+    background-color: white
+}
+#section2 {
+    background-color: #a5a3a3;
+    color: white
+}
+#section7 {
+    background-image: url(../images/image2.jpg);
+    background-size: cover;
+}
+#section10 {
+    color: white;
+    background-image: url(../images/image3.jpg);
+    background-size: cover;
+}
+
+/*底色與背景色設定 結束*/
+#section2 h1 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+#section2 .col-md-3 {
+    margin-bottom: 80px;
+}
+#section3 {
+    background-color: gainsboro
+}
+#section3 .col-md-5 {
+    margin: 20px;
+}
+#section4 {
+    background-color: white;
+    height: 300px;
+    padding: 40px;
+}
+#section4 .col-md-3 i {
+    font-size: 70pt;
+}
+#section4 h1 {
+    margin-top: 70px;
+}
+#section5 img {
+    border-radius: 50%
+}
+#section5 {
+    text-align: right
+}
+i[class*="fa"] {
+    font-size: 30pt;
+    margin: 10px;
+}
+#section6 i[class*="fa"] {
+    font-size: 60pt;
+    margin: 10px;
+    color: rgb(91, 120, 126);
+    text-align: center
+}
+#section6 .col-md-3 {
+    text-align: center
+}
+#section7 .thumbnail {
+    margin: 10px;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center
+}
+#section7 #expert img {
+    border-style: none;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+#section7 #expert {
+    border-style: none;
+}
+#section8 #usersays {
+    border-radius: 0;
+    padding: 20px;
+    background-color: #eeeeee;
+    border-style: none;
+    text-align: left;
+    margin-top: 30px;
+}
+#section8 #usersays p {
+    text-align: left
+}
+#section8 p {
+    text-align: center
+}
+#section9 .row {
+    margin: 0;
+    padding: 0;
+    text-align: center
+}
+footer {
+    background-color: #313131;
+    padding-bottom: 40px;
+    color: whitesmoke
+}
+footer img {
+    padding-left: 20px;
+}
+footer .col-md-4 div {
+    margin-top: 10px;
+    padding: 20px;
+    color: #8b8b8b
+}
+footer .row {
+    margin-top: 50px
+}
+footer ul {
+    list-style-position: inside;
+    list-style-type: square;
+}
+footer h5 {
+    color: #a57f21
+}
+ul#imformation p i {
+    font-size: 15pt;
+}
+footer h5 {
+    margin-left: 40px
+}
+.jumbotron .row {
+    margin: 0 !important;
+}
