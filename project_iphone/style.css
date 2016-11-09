@@ -1,0 +1,299 @@
+/*
+* Noto Sans TC (Chinese_traditional) http://www.google.com/fonts/earlyaccess
+ */
+
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 100;
+    src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 300;
+    src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 400;
+    src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 500;
+    src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 700;
+    src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 900;
+    src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.otf) format('opentype');
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    overflow: auto;
+    float: left
+}
+
+img {
+    width: 300px;
+}
+
+.layer1 {
+    position: fixed;
+    top: 6px;
+    left: 15px;
+    width: 275px;
+    height: 559px;
+    background: rgb(255, 228, 196);
+    border-radius: 40px;
+    border-style: solid;
+    border-color: #ffd8a3;
+    border-width: 2px
+}
+
+.backbutton1 {
+    position: fixed;
+    top: 73px;
+    left: 13px;
+    width: 20px;
+    height: 20px;
+    background: #e8d0b4;
+    border-radius: 3px;
+}
+
+.backbutton2 {
+    position: fixed;
+    top: 115px;
+    left: 13px;
+    width: 20px;
+    height: 35px;
+    background: #e8d0b4;
+    border-radius: 3px;
+}
+
+.backbutton3 {
+    position: fixed;
+    top: 159px;
+    left: 13px;
+    width: 20px;
+    height: 35px;
+    background: #e8d0b4;
+    border-radius: 3px;
+}
+
+.backbutton4 {
+    position: fixed;
+    top: 114px;
+    left: 272px;
+    width: 20px;
+    height: 35px;
+    background: #e8d0b4;
+    border-radius: 3px;
+}
+
+.antenna1 {
+    position: fixed;
+    top: 45px;
+    left: 15px;
+    width: 275px;
+    height: 8px;
+    background: #ffffff;
+}
+
+.antenna2 {
+    position: fixed;
+    top: 518px;
+    left: 15px;
+    width: 275px;
+    height: 8px;
+    background: #ffffff;
+}
+
+.white-board {
+    position: fixed;
+    top: 10px;
+    left: 18px;
+    width: 269px;
+    height: 550px;
+    background: rgb(255, 255, 255);
+    border-radius: 40px;
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: 1px;
+}
+
+.headphone1 {
+    position: fixed;
+    top: 22px;
+    left: 150px;
+    width: 6px;
+    height: 6px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+}
+
+.headphone2 {
+    position: fixed;
+    top: 36px;
+    left: 111px;
+    width: 8px;
+    height: 8px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+}
+
+.headphone3 {
+    position: fixed;
+    top: 39px;
+    left: 135px;
+    width: 37px;
+    height: 3px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+}
+
+.home-btn1 {
+    position: fixed;
+    top: 511px;
+    left: 135px;
+    width: 36px;
+    height: 36px;
+    background: -webkit-radial-gradient(bottom right, white, #363434);
+    border-radius: 50%;
+}
+
+.home-btn2 {
+    position: fixed;
+    top: 513px;
+    left: 137px;
+    width: 31px;
+    height: 32px;
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+.monitor {
+    position: fixed;
+    top: 69px;
+    left: 32px;
+    width: 243px;
+    height: 433px;
+    background: #000000;
+    border-radius: 5px;
+}
+
+.monitor .container-fluid {
+    width: 243px;
+    height: 433px;
+    color: white;
+    background-image: url(images/i7bg.png);
+    background-size: cover;
+}
+
+#header {
+    margin: 0;
+    background-color: darkgray;
+    width: 243px;
+    height: auto;
+    font-family: 'Noto Sans TC';
+    color: white;
+}
+
+#header .content {
+    width: auto;
+    color: white;
+    background-color: cadetblue
+}
+
+.col-md-12 {
+    position: absolute;
+}
+
+.button {
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 13px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+}
+
+.row#phone-content {
+    width: 486px;
+    height: 413px;
+}
+
+#phone-header {
+    position: fixed;
+    left: 47px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 243px;
+    height: 20px;
+    background-color: rgba(0, 0, 139, 0.55);
+    font-family: 'Noto Sans TC';
+    font-size: 6pt;
+}
+
+#phone-footer {
+    position: fixed;
+    top: 440px;
+    background-color: rgba(203, 206, 206, 0.58);
+    height: 62px;
+    width: 243px;
+}
+
+.col-a {
+    width: 243px;
+    height: 350px;
+}
+
+.col-b {
+    width: 243px;
+    height: 350px;
+}
+
+.button-footer {
+    float: left;
+    position: relative;
+    top: 3px;
+    left: 13px;
+    color: black;
+    border-color: Black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+}
