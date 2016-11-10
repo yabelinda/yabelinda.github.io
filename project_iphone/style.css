@@ -47,7 +47,6 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    overflow: auto;
     float: left;
 }
 
