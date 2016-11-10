@@ -49,8 +49,7 @@
     padding: 0;
     overflow: auto;
     float: left;
-    overflow-x:hidden;
-    overflow-y:hidden;
+    overflow:hidden;
 }
 
 img {
