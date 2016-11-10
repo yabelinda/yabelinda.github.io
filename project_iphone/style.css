@@ -48,7 +48,9 @@
     box-sizing: border-box;
     padding: 0;
     overflow: auto;
-    float: left
+    float: left;
+    overflow-x:hidden;
+    overflow-y:hidden;
 }
 
 img {
